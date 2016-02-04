@@ -1,0 +1,81 @@
+body {
+	background-image: url(../images/paper.jpeg);
+	height: 100vh;
+	font-family: 'Indie Flower', cursive;
+}
+
+#header{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	opacity: .5;
+	margin-top: 0px;
+}
+
+#selector{
+	width: 30vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+#selector p{
+	font-size: 1.2em;
+	color: white;
+}
+
+#wrapper {
+	min-height: 85vh;
+	max-width: 100vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+#buckets {
+	width: 200vh;
+	height: 30vh;
+	/*border: 1px solid white;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 3vh;
+}
+
+
+.col{
+	height: 26vh;
+	width: 30vh;
+	/*border: 1px solid black;*/
+}
+
+.col2{
+	height: 23vh;
+	width: 20vh;
+	/*border: 1px solid black;*/
+}
+
+#toAdd {
+	width: 180vh;
+	height: 25vh;
+	/*border: 1px solid white;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.boxW {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.card {
+	width: 100%;
+	height: 100%;
+	padding: 1em;
+	background-color: white;
+	text-align: center;
+	font-size:1em;
+}
